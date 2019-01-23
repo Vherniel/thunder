@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "pug": "pug -w -P -o /build"
+    "pug": "pug src/pug/index.pug -w -P -o build",
+    "sass": "sass --watch src/scss/index.scss build/css/index.css"
   },
   "repository": {
     "type": "git",
