@@ -1,15 +1,18 @@
 {
   "name": "thunder",
   "version": "1.0.0",
-  "description": "The open-source code of Arellano University's online merchandise store web app.",
+  "description": "The open-source code of Arellano University's online merchandise store web-app.",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.6.0",
-    "sass": "^1.16.1",
-    "pug": "^2.0.3",
-    "pug-cli": "^1.0.0-alpha6"
+    "normalize.css": "^8.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "npm": "^6.6.0",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.16.1"
+  },
   "scripts": {
     "pug": "pug src/pug/index.pug -w -P -o build",
     "sass": "sass --watch src/scss/index.scss build/css/index.css"
