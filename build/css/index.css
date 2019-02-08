@@ -1,5 +1,29 @@
-h1 {
-  color: cyan;
+*, ::before, ::after {
+  box-sizing: border-box;
 }
+
+html, body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/*
+ATOMS LIBRARY
+*/
+a {
+  columns: 1;
+}
+
+/*
+MOLECULES LIBRARY
+*/
+/*
+ORGANISMS LIBRARY
+*/
+/*
+TEMPLATES LIBRARY
+*/
+/*
+PAGES LIBRARY
+*/
 
 /*# sourceMappingURL=index.css.map */
