@@ -7,13 +7,14 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "gulp": "^4.0.0",
     "npm": "^6.6.0",
+    "concurrently": "^4.1.0",
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.16.1"
   },
   "scripts": {
+    "all": "concurrently \"npm run pug\" \"npm run sass\"",
     "pug": "pug src/pug/index.pug -w -P -o build",
     "sass": "sass --watch src/scss/index.scss build/css/index.css"
   },
