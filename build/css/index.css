@@ -6,6 +6,37 @@ html, body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+svg {
+  height: 100%;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  height: 91px;
+  position: relative;
+  background-color: #163D6E;
+}
+
+img {
+  height: 70px;
+}
+
 /*
 ATOMS LIBRARY
 */
