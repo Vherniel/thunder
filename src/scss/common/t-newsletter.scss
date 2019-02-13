@@ -1,0 +1,41 @@
+.t-newsletter {
+  background: #333;
+  height: 208px;
+  color: #fff;
+}
+
+.container-newsletter {
+  @include container-large;
+  text-align: center;
+}
+
+.wrapper-newsletter {
+  max-width: 400px;
+  margin: 0 0 0 auto;
+}
+
+.a-newsletter-heading {
+  padding: 1em 0 1.5em 0;
+  margin: 0;
+}
+
+.a-newsletter-sub-heading {
+  display: inline-block;
+}
+
+.a-newsletter-textbox {
+  text-align: center;
+  border: 1px solid none;
+  padding: 0.5em;
+  background: #fff;
+  color: #fff;
+}
+
+.m-newsletter-form {
+  padding: 1em;
+}
+
+.a-newsletter-submit {
+  height: 38px;
+  margin: 0;
+}

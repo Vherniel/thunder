@@ -3,15 +3,14 @@
   background: #333;
 }
 
-.wrap-header-top {
-  max-width: 980px;
-  margin: auto;
+.container-header-top {
+  @include container-large;
   display: flex;
   align-items: center;
   height: 100%;
 }
 
-.wrap-header-logo {
+.container-header-logo {
   flex-grow: 1;
 }
 

@@ -1,0 +1,6 @@
+$large-container: 980px;
+
+@mixin container-large {
+  max-width: $large-container;
+  margin: auto;
+}

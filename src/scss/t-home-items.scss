@@ -1,22 +1,12 @@
-// .wrap-main {
-//   display: grid;
-//   grid-template-columns: repeat(12, 1fr);
-//   margin: auto;
-//   grid-column-gap: 15px;
-//   max-width: 980px;
-// }
-
 .a-main-headings {
   text-align: center;
-  // grid-column: span 12;
 }
 
 .t-main-products {
+  @include container-large;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: auto;
   grid-column-gap: 15px;
-  max-width: 980px;
   padding: 0;
 }
 

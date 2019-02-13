@@ -21,7 +21,7 @@ h3 {
   background: #333;
 }
 
-.wrap-header-top {
+.container-header-top {
   max-width: 980px;
   margin: auto;
   display: flex;
@@ -29,7 +29,7 @@ h3 {
   height: 100%;
 }
 
-.wrap-header-logo {
+.container-header-logo {
   flex-grow: 1;
 }
 
@@ -51,11 +51,11 @@ h3 {
 }
 
 .t-main-products {
+  max-width: 980px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: auto;
   grid-column-gap: 15px;
-  max-width: 980px;
   padding: 0;
 }
 
@@ -80,6 +80,76 @@ h3 {
 
 .a-main-product-item-price {
   text-align: center;
+}
+
+.t-newsletter {
+  background: #333;
+  height: 208px;
+  color: #fff;
+}
+
+.container-newsletter {
+  max-width: 980px;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper-newsletter {
+  max-width: 400px;
+  margin: 0 0 0 auto;
+}
+
+.a-newsletter-heading {
+  padding: 1em 0 1.5em 0;
+  margin: 0;
+}
+
+.a-newsletter-sub-heading {
+  display: inline-block;
+}
+
+.a-newsletter-textbox {
+  text-align: center;
+  border: 1px solid none;
+  padding: 0.5em;
+  background: #fff;
+  color: #fff;
+  width: 100%;
+}
+
+.m-newsletter-form {
+  padding: 1em;
+}
+
+.a-newsletter-submit {
+  height: 38px;
+  margin: 0;
+  float: right;
+}
+
+.t-footer {
+  height: 130px;
+  background: #000;
+  position: relative;
+}
+
+.container-footer {
+  max-width: 980px;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.a-footer-social-links {
+  display: inline-block;
+  padding: 20px;
+}
+
+.a-footer-text {
+  color: #fff;
 }
 
 /*# sourceMappingURL=index.css.map */
