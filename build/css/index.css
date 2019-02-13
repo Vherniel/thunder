@@ -1,0 +1,68 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  background: #ddd;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ATOMS LIBRARY
+*/
+.t-header-top {
+  height: 91px;
+  background: #333;
+}
+
+.wrap-header-top {
+  max-width: 980px;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+
+.wrap-header-logo {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.m-header-cart-links {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.inline-links {
+  display: inline-block;
+  padding: 0 0.1em;
+}
+
+.a-header-label-cart {
+  text-transform: uppercase;
+}
+
+/*
+MOLECULES LIBRARY
+*/
+/*
+ORGANISMS LIBRARY
+*/
+/*
+TEMPLATES LIBRARY
+*/
+/*
+PAGES LIBRARY
+*/
+
+/*# sourceMappingURL=index.css.map */
