@@ -2,13 +2,16 @@
     box-sizing: border-box;
   }
   
- body {
+ html, body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    background: #ddd;
     height: 100%;
   }
 
   a {
     color: #fff;
     text-decoration: none;
+  }
+
+  h3 {
+    margin-bottom: 0.5em;
   }

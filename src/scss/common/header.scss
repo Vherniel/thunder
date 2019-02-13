@@ -1,35 +1,30 @@
 .t-header-top {
-  height: 91px;
+  height: 104px;
   background: #333;
 }
 
 .wrap-header-top {
   max-width: 980px;
   margin: auto;
-  position: relative;
+  display: flex;
+  align-items: center;
   height: 100%;
 }
 
 .wrap-header-logo {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  flex-grow: 1;
 }
 
-.m-header-cart-links {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.m-header-bag-links {
+  display: inline-flex;
+  align-items: center;
 }
 
-.inline-links {
-  display: inline-block;
-  padding: 0 0.1em;
+.a-js-header-current-price {
+  padding-top: 3px; 
 }
 
-.a-header-label-cart {
-  text-transform: uppercase;
+.a-header-icon-bag {
+  padding: 0 0.75em;
 }
+
