@@ -1,0 +1,32 @@
+section.t-product-opened
+  .o-product-previews
+    .m-product-thumbnails
+      a(href="#").a-product-thumb
+        img(src="assets/img/item.jpg", alt="G").a-product-thumb-img
+      a(href="#").a-product-thumb
+        img(src="assets/img/item.jpg", alt="G").a-product-thumb-img
+      a(href="#").a-product-thumb
+        img(src="assets/img/item.jpg", alt="G").a-product-thumb-img
+      a(href="#").a-product-thumb
+        img(src="assets/img/item.jpg", alt="G").a-product-thumb-img
+    img(src="assets/img/item.jpg", alt="A").a-product-main-preview
+      
+  .m-product-description-group
+    h1.a-product-description-heading Product Name
+    p.a-product-description-price ₱250.00
+    p.a-product-description-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit quas velit ratione, laudantium ullam in atque unde iste sequi reiciendis corporis repellat cupiditate quod labore distinctio dolores minima sint.
+    
+    //- SHAME DAT NAME...
+    .m-product-decision-group
+      fieldset.m-product-decision-group-field
+        label(for="product1").a-product-description-group-size-button XS
+          input(type="radio", name="size", value="extra-small", id="product1")
+        label(for="product2").a-product-description-group-size-button S
+          input(type="radio", name="size", value="small", id="product2")
+        label(for="product3").a-product-description-group-size-button M
+          input(type="radio", name="size", value="medium", id="product3")
+        label(for="product4").a-product-description-group-size-button L
+          input(type="radio", name="size", value="large", id="product4")
+        label(for="product5").a-product-description-group-size-button XL
+          input(type="radio", name="size", value="extra-large", id="product5")
+      button(type="submit").a-product-description-group-add-to-bag Add to bag

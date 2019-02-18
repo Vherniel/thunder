@@ -14,8 +14,9 @@
     "sass": "^1.16.1"
   },
   "scripts": {
-    "all": "concurrently \"npm run pug\" \"npm run sass\"",
+    "all": "concurrently \"npm run pug\" \"npm run sass\" \"npm run pug1\"",
     "pug": "pug src/pug/index.pug -w -P -o build",
+    "pug1": "pug src/pug/product/product-page.pug -w -P -o build",
     "sass": "sass --watch src/scss/index.scss build/css/index.css"
   },
   "repository": {

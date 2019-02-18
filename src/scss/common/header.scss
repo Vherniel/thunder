@@ -4,7 +4,7 @@
 }
 
 .container-header-top {
-  @include container-large;
+  @include grid-container-large;
   display: flex;
   align-items: center;
   height: 100%;
@@ -26,4 +26,3 @@
 .a-header-icon-bag {
   padding: 0 0.75em;
 }
-

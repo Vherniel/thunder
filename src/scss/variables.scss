@@ -1,6 +1,10 @@
-$large-container: 980px;
+$large-container-size: 980px;
 
-@mixin container-large {
-  max-width: $large-container;
-  margin: auto;
+@mixin grid-container-large {
+  max-width: $large-container-size;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 15px;
+  padding: 0;
 }

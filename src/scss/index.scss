@@ -1,8 +1,16 @@
+// Initialization
 @import "variables.scss";
-
 @import "user_reset.scss";
+
+// // Common Styling
 @import "common/header.scss";
-@import "t-home-items.scss";
-@import "common/t-newsletter.scss";
-@import "common/t-footer.scss";
-@import "t-home-toolbar.scss";
+@import "common/newsletter.scss";
+@import "common/footer.scss";
+
+// // Home Styling
+@import "home/home-products.scss";
+@import "home/home-toolbar.scss";
+
+// Product Styling
+@import "product/product-card.scss";
+@import "product/product-page.scss";

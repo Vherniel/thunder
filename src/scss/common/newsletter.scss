@@ -5,7 +5,8 @@
 }
 
 .container-newsletter {
-  @include container-large;
+  width: $large-container-size;
+  margin: auto;
   text-align: center;
 }
 

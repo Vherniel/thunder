@@ -1,0 +1,9 @@
+.a-main-headings {
+  text-align: center;
+}
+
+.t-main-products {
+  @include grid-container-large;
+}
+
+@import "../product/product-card.scss";
