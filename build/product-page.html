@@ -38,26 +38,20 @@
         <h1 class="a-product-description-heading">Product Name</h1>
         <p class="a-product-description-price">₱250.00</p>
         <p class="a-product-description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit quas velit ratione, laudantium ullam in atque unde iste sequi reiciendis corporis repellat cupiditate quod labore distinctio dolores minima sint.</p>
-        <div class="m-product-decision-group">
-          <fieldset class="m-product-decision-group-field">
-            <label class="a-product-description-group-size-button" for="product1">XS
-              <input type="radio" name="size" value="extra-small" id="product1"/>
-            </label>
-            <label class="a-product-description-group-size-button" for="product2">S
-              <input type="radio" name="size" value="small" id="product2"/>
-            </label>
-            <label class="a-product-description-group-size-button" for="product3">M
-              <input type="radio" name="size" value="medium" id="product3"/>
-            </label>
-            <label class="a-product-description-group-size-button" for="product4">L
-              <input type="radio" name="size" value="large" id="product4"/>
-            </label>
-            <label class="a-product-description-group-size-button" for="product5">XL
-              <input type="radio" name="size" value="extra-large" id="product5"/>
-            </label>
+        <form action="#" method="post">
+          <fieldset class="o-product-decision-group-field">
+            <input class="a-product-decision-group-field-input" id="size-xs" value="extra-small" type="radio" name="product-size"/>
+            <label class="a-product-decision-group-field-label" for="size-xs">XS</label>
+            <input class="a-product-decision-group-field-input" id="size-s" value="small" type="radio" name="product-size"/>
+            <label class="a-product-decision-group-field-label" for="size-s">S</label>
+            <input class="a-product-decision-group-field-input" id="size-m" value="medium" type="radio" name="product-size"/>
+            <label class="a-product-decision-group-field-label" for="size-m">M</label>
+            <input class="a-product-decision-group-field-input" id="size-l" value="large" type="radio" name="product-size"/>
+            <label class="a-product-decision-group-field-label" for="size-l">L</label>
+            <input class="a-product-decision-group-field-input" id="size-xl" value="extra-large" type="radio" name="product-size"/>
+            <label class="a-product-decision-group-field-label" for="size-xl">XL</label>
           </fieldset>
-          <button class="a-product-description-group-add-to-bag" type="submit">Add to bag</button>
-        </div>
+        </form>
       </div>
     </section>
     <main>

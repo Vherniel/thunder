@@ -17,16 +17,19 @@ section.t-product-opened
     p.a-product-description-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit quas velit ratione, laudantium ullam in atque unde iste sequi reiciendis corporis repellat cupiditate quod labore distinctio dolores minima sint.
     
     //- SHAME DAT NAME...
-    .m-product-decision-group
-      fieldset.m-product-decision-group-field
-        label(for="product1").a-product-description-group-size-button XS
-          input(type="radio", name="size", value="extra-small", id="product1")
-        label(for="product2").a-product-description-group-size-button S
-          input(type="radio", name="size", value="small", id="product2")
-        label(for="product3").a-product-description-group-size-button M
-          input(type="radio", name="size", value="medium", id="product3")
-        label(for="product4").a-product-description-group-size-button L
-          input(type="radio", name="size", value="large", id="product4")
-        label(for="product5").a-product-description-group-size-button XL
-          input(type="radio", name="size", value="extra-large", id="product5")
-      button(type="submit").a-product-description-group-add-to-bag Add to bag
+    form(action="#", method="post")
+      fieldset.o-product-decision-group-field
+        input(id="size-xs", value="extra-small", type="radio", name="product-size").a-product-decision-group-field-input
+        label(for="size-xs").a-product-decision-group-field-label XS
+        input(id="size-s", value="small", type="radio", name="product-size").a-product-decision-group-field-input
+        label(for="size-s").a-product-decision-group-field-label S
+        input(id="size-m", value="medium", type="radio", name="product-size").a-product-decision-group-field-input
+        label(for="size-m").a-product-decision-group-field-label M
+        input(id="size-l", value="large", type="radio", name="product-size").a-product-decision-group-field-input
+        label(for="size-l").a-product-decision-group-field-label L
+        input(id="size-xl", value="extra-large", type="radio", name="product-size").a-product-decision-group-field-input
+        label(for="size-xl").a-product-decision-group-field-label XL
+
+
+
+//- button(type="submit").a-product-description-group-add-to-bag Add to bag
