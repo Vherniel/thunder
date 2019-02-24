@@ -1,7 +1,7 @@
-$large-container-size: 980px;
+$container-large: 1080px;
 
 @mixin grid-container-large {
-  max-width: $large-container-size;
+  max-width: $container-large;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
