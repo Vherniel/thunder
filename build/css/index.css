@@ -206,8 +206,10 @@ h3 {
 }
 
 .o-product-decision-group-field {
-  padding: 40px;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .a-product-decision-group-field-input[type=radio] {
@@ -216,6 +218,8 @@ h3 {
   width: 1px;
   border: 0;
   overflow: hidden;
+  width: 0;
+  height: 0;
 }
 
 .a-product-decision-group-field-label {
@@ -231,16 +235,35 @@ h3 {
   font-weight: normal;
   text-align: center;
   text-shadow: none;
-  padding: 6px 14px;
+  padding: 1em 0.5em;
+  margin: 0.5em;
 }
 .a-product-decision-group-field-label:hover {
   cursor: pointer;
 }
 
+.a-product-decision-group-field-label:first-of-type {
+  margin-left: 0;
+}
+
+.a-product-decision-group-field-label:last-of-type {
+  margin-right: 0;
+}
+
 .a-product-decision-group-field-input[type=radio]:checked + .a-product-decision-group-field-label {
-  background-color: #A5DC86;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+.a-product-decision-group-field-submit {
+  background: #444;
+  border: 0;
+  margin: 1em 0;
+  padding: 1em;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=index.css.map */
